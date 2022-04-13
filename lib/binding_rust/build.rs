@@ -27,9 +27,13 @@ fn main() {
     cc::Build::new()
         .flag_if_supported("-std=c99")
         .flag_if_supported("-Wno-unused-parameter")
+        .flag_if_supported("-Wno-unused-variable")
         .include(src_path)
         .include("include")
+        .define("NDEBUG", "")
+        .define("fprintf(...)", "")
         .file(src_path.join("lib.c"))
+        .file(src_path.join("../binding_web/binding.c")
         .compile("tree-sitter");
 }
 

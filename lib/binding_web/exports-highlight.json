@@ -1,0 +1,43 @@
+[
+  "_calloc",
+  "_free",
+  "_malloc",
+  "_realloc",
+
+  "__ZNKSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4copyEPcmm",
+  "__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv",
+  "__ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm",
+  "__ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm",
+  "__ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm",
+  "__ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+  "__ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev",
+  "__ZNSt3__212basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE9push_backEw",
+  "__ZNSt3__212basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEED2Ev",
+  "__ZdlPv",
+  "__Znwm",
+  "_abort",
+  "_iswalnum",
+  "_iswalpha",
+  "_iswdigit",
+  "_iswlower",
+  "_iswspace",
+  "_memchr",
+  "_memcmp",
+  "_memcpy",
+  "_memmove",
+  "_strlen",
+  "_towupper",
+
+
+  
+  "_ts_highlight_buffer_content",
+  "_ts_highlight_buffer_delete",
+  "_ts_highlight_buffer_len",
+  "_ts_highlight_buffer_line_count",
+  "_ts_highlight_buffer_line_offsets",
+  "_ts_highlight_buffer_new",
+  "_ts_highlighter_add_language",
+  "_ts_highlighter_delete",
+  "_ts_highlighter_highlight",
+  "_ts_highlighter_new"
+]
